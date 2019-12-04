@@ -15,7 +15,7 @@ In other browsers the app may freeze.</i>
 
 <br>
 
-My goal for this exercise was to develop the Python, HTML, CSS and Javascript workflow that would make it possible for a Tensorflow.js web app to display a segmented image inside a web browser. For visual context, the segmented image is ovelayed on the original image. An example output is shown in the picture above.
+My goal for this exercise was to develop the Python, HTML, CSS and Javascript workflow that would make it possible for a Tensorflow.js web app to display a segmented image inside a web browser. For visual context, the segmented image is overlayed on the original image. An example output is shown in the picture above.
 
 This same code structure can be used to build web apps for other problems that combine prediction and segmentation. One drawback I found was that inference takes about 30 seconds when large images are submitted to the app. That's a long time in the web world - online users don't like waiting. This aspect of the user experience needs to be optimized.
 
